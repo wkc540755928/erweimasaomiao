@@ -61,3 +61,8 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+
+# 忽略所有.o和 .a文件.
+*.[o]
+
+*/.DS_Store
